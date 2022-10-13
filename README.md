@@ -3,7 +3,7 @@ This is a sports coaching project that pulls in the user's camera and performs h
 # Quickly start
 1.Download the v0.0.2 version we offer https://github.com/Garrukzijian/CVcoach/releases/tag/v0.0.2
 ![img_1.png](img_1.png)
-2.Open your local MySQL (if you don't have MySQL on your computer, we recommend you to use XAMPP for MySQL deployment)https://www.apachefriends.org/
+2.Open your local MySQL,because we have the login and regist function (if you don't have MySQL on your computer, we recommend you to use XAMPP for MySQL deployment)https://www.apachefriends.org/
 ![img_3.png](img_3.png)
 3.Run the database SQL file (db.sql)
 
