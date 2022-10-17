@@ -334,6 +334,7 @@ class pushup_form(ui_form, QFrame):
                         if count_of_pushup == target:
                             userWantsToExit = True
                             self.close()
+                            QMessageBox.information(self, "Finish exercise", "Congratulation,you finish your goal！")
                         datum = datumProcessed[0]
                         a = datum.cvOutputData
                         image_height, image_width, image_depth = a.shape

@@ -6,7 +6,7 @@ block_cipher = None
 
 a = Analysis(
     ['app.py'],
-    pathex=['D:\\Openpose\\openpose\\openpose\\bin\\python\\openpose\\Release','D:\\Openpose\\openpose\\openpose\\models\\pose\\body_25'],
+    pathex=['D:\\Openpose\\openpose\\CVcoach\\openpose\\bin\\python\\openpose\\Release','D:\\Openpose\\openpose\\CVcoach\\openpose\\models\\pose\\body_25'],
     binaries=[],
     datas=[(r"res\*",r"res"),
     (r"config\skin\white.qss",r"config\skin"),

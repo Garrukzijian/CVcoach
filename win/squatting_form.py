@@ -323,6 +323,7 @@ class squatting_form(ui_form, QFrame):
                         if count_of_squats == target:  # 20改为变量传入
                             userWantsToExit = True
                             self.close()
+                            QMessageBox.information(self, "Finish exercise", "Congratulation,you finish your goal！")
                         datum = datumProcessed[0]
                         a = datum.cvOutputData
                         image_height, image_width, image_depth = a.shape
